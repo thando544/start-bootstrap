@@ -388,3 +388,37 @@ gap: 1.2rem;
     padding: 0 11px;
   }
 }
+
+@media (max-width: 390px){
+   .flex__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo{
+    font-size: .9rem;
+    font-weight: 600;
+  }
+
+  .navbar{
+    padding: 11px 18px;
+  }
+
+  li a{
+    font-size: 16px;
+  }
+
+  .grid__images img{
+    width: 100%;
+  }
+
+  .grid__images{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding: 0 11px;
+  }
+}
