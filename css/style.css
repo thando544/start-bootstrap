@@ -376,4 +376,15 @@ gap: 1.2rem;
   li a{
     font-size: 16px;
   }
+
+  .grid__images img{
+    width: 100%;
+  }
+
+  .grid__images{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding: 0 11px;
+  }
 }
